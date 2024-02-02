@@ -1,5 +1,5 @@
-# 说明
-在原libev-4.33的基础上做了很小的改动，现可以用cmake构建并用msvc编译
+# 介绍
+在原libev-4.33的基础上做了很小的改动，可以用cmake构建并用msvc编译
 
 # 编译为64位
 1. 构建
@@ -21,8 +21,7 @@ cmake -B "build_Win32"  -G "Visual Studio 17 2022" -A Win32 -DCMAKE_INSTALL_PREF
 cmake --build "build_Win32" --config "Release"
 ```
 
--------------------------------------------------------------------------
-
+# 原README内容
 libev is a high-performance event loop/event model with lots of features.
 (see benchmark at http://libev.schmorp.de/bench.html)
 
