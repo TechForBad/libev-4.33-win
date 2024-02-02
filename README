@@ -1,3 +1,25 @@
+# 编译为64位
+1. 构建
+```
+cmake -B "build_x64"  -G "Visual Studio 17 2022" -A x64 -DCMAKE_INSTALL_PREFIX=install -DCMAKE_CONFIGURATION_TYPES="Debug;Release;RelWithDebInfo"
+```
+1. 编译
+```
+cmake --build "build_x64" --config "Release"
+```
+
+# 编译为32位
+1. 构建
+```
+cmake -B "build_Win32"  -G "Visual Studio 17 2022" -A Win32 -DCMAKE_INSTALL_PREFIX=install -DCMAKE_CONFIGURATION_TYPES="Debug;Release;RelWithDebInfo"
+```
+1. 编译
+```
+cmake --build "build_Win32" --config "Release"
+```
+
+-------------------------------------------------------------------------
+
 libev is a high-performance event loop/event model with lots of features.
 (see benchmark at http://libev.schmorp.de/bench.html)
 
