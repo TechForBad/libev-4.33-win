@@ -1,0 +1,17 @@
+.vs
+.vscode
+out
+*.vcxproj.user
+*.suo
+*.aps
+*.sdf
+*.dir
+*.log
+*.ilk
+*.exp
+*.opensdf
+*.tlog
+
+build/*
+build_x64/*
+build_Win32/*
