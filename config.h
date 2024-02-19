@@ -134,3 +134,6 @@
 
 /* Version number of package */
 #undef VERSION
+
+#define HAVE_SELECT 1
+#define HAVE_SYS_SELECT_H 1
